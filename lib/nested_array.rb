@@ -39,8 +39,7 @@ end
 
 def matrix_lookup(matrix, row, column)
     matrix_lookup = [
-     CONVENTIONAL_PRODUCE,
-     ORGANIC_PRODUCE,
+     sorted_matrix[1][1]
      ]
      return matrix_lookup[1][1]
   
